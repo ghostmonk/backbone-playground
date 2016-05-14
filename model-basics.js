@@ -1,10 +1,10 @@
 (function(){
   'use strict';
-  var quiet = true;
+  return;
 
   var Vehicle = Backbone.Model.extend({
     initialize: function() {
-
+      console.log("INIT");
     },
     summary: function() {
       return "Vehicles are not static";
@@ -27,8 +27,6 @@
   var car = new Car({
     seats: "4"
   });
-
-  if(quiet) return;
 
   console.log(v.asString());
   console.log(car.asString());
