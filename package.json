@@ -1,0 +1,26 @@
+{
+  "name": "backbone-playground",
+  "version": "1.0.0",
+  "description": "A place to play with, and understand backbone features",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghostmonk/backbone-playground.git"
+  },
+  "keywords": [
+    "backbone",
+    "playground"
+  ],
+  "author": "ghostmonk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ghostmonk/backbone-playground/issues"
+  },
+  "homepage": "https://github.com/ghostmonk/backbone-playground#readme",
+  "devDependencies": {
+    "handlebars": "^4.0.5"
+  }
+}

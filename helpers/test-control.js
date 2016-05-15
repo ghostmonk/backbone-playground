@@ -9,5 +9,7 @@ var TestControl = {
   el: false,
   rendering: false,
   remove: false,
-  viewEvents: true
+  viewEvents: false,
+  underscoreTemplates: false,
+  handlebarsTemplating: true
 };
