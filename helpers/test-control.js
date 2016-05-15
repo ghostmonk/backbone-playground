@@ -11,5 +11,7 @@ var TestControl = {
   remove: false,
   viewEvents: false,
   underscoreTemplates: false,
-  handlebarsTemplating: true
+  handlebarsTemplating: false,
+  collectionsIndex: false,
+  instantiatingCollections: true
 };
