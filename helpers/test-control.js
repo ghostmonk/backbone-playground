@@ -3,5 +3,11 @@ var TestControl = {
   events: false,
   globalHelpers: false,
   modelBasics: false,
-  validation: true
+  validation: false,
+  views: false,
+  instantiating: false,
+  el: false,
+  rendering: false,
+  remove: false,
+  viewEvents: true
 };
