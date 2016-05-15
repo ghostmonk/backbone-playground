@@ -13,5 +13,7 @@ var TestControl = {
   underscoreTemplates: false,
   handlebarsTemplating: false,
   collectionsIndex: false,
-  instantiatingCollections: true
+  instantiatingCollections: false,
+  cors:false,
+  localStorage:true
 };
