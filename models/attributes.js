@@ -1,7 +1,7 @@
-$(document).ready(function() {
-  'use strict';
+'use strict';
 
-  return;
+$(document).ready(function() {
+  if(!TestControl.attributes) return;
 
   var Vehicle = Backbone.Model.extend({});
 

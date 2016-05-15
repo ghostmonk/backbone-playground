@@ -1,6 +1,6 @@
-(function(){
-  'use strict';
-  return;
+'use strict';
+$(document).ready(function(){
+  if(!TestControl.modelBasics) return;
 
   var Vehicle = Backbone.Model.extend({
     initialize: function() {
@@ -34,4 +34,4 @@
   console.log(car instanceof Vehicle);
   console.log(Vehicle.summary());
   console.log(v.summary());
-})();
+});
